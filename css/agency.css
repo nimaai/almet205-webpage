@@ -662,6 +662,11 @@ section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .section-subheading {
+    font-size: 19px;
+    font-weight: 600;
+}
+
 section#contact .form-group {
     margin-bottom: 25px;
 }

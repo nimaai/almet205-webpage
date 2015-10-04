@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="github.com/nimaai">
 
-    <title>Apartmán Donovaly</title>
+    <title>{{title}}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Apartmán Donovaly</a>
+          <a class="navbar-brand page-scroll" href="#page-top">{{title}}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,19 +69,19 @@
               </a>
             </li>
             <li>
-              <a class="page-scroll" href="#services">Služby</a>
+              <a class="page-scroll" href="#services">{{services}}</a>
             </li>
             <li>
-              <a class="page-scroll" href="#prices">Cenník</a>
+              <a class="page-scroll" href="#prices">{{prices}}</a>
             </li>
             <li>
-              <a class="page-scroll" href="#portfolio">Galéria</a>
+              <a class="page-scroll" href="#portfolio">{{gallery}}</a>
             </li>
             <li>
               <a class="page-scroll" href="#about">Donovaly</a>
             </li>
             <li>
-              <a class="page-scroll" href="#contact">Kontakt</a>
+              <a class="page-scroll" href="#contact">{{contact}}</a>
             </li>
           </ul>
         </div>
@@ -94,9 +94,9 @@
     <header>
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Vitajte na Donovaloch!</div>
-          <div class="intro-heading">Apartmán 2 + 1/2</div>
-          <a href="#portfolio" class="page-scroll btn btn-xl">Galéria</a>
+          <div class="intro-lead-in">{{welcome}}</div>
+          <div class="intro-heading">{{apartment-size}}</div>
+          <a href="#portfolio" class="page-scroll btn btn-xl">{{gallery}}</a>
         </div>
       </div>
     </header>
@@ -106,8 +106,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Služby</h2>
-            <h3 class="section-subheading text-muted">O vybavení nášho apartmánu, službách v apartmánovom dome a na Donovaloch</h3>
+            <h2 class="section-heading">{{services}}</h2>
+            <h3 class="section-subheading text-muted">{{services-subtitle}}</h3>
           </div>
         </div>
         <div class="row text-center">
@@ -116,9 +116,9 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Apartmán</h4>
-            <p class="text-muted">Apartmán je pre 2 osoby + 1-2 prístelky.</p>
-            <p class="text-muted"></p>
+            <h4 class="service-heading">{{apartment}}</h4>
+            <p class="text-muted">{{apartment-subtitle}}</p>
+            <p class="text-muted">{{apartment-description}}</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -126,8 +126,8 @@
               <i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Almet</h4>
-            <p class="text-muted">Apartmánový dom ALMET sa nachádza priamo v centre obce Donovaly v blízkosti vlekov a zjazdoviek na Záhradišti ako aj sedačkovej lanovky na Novú Hoľu.</p>
-            <p class="text-muted">V apartmánovom dome sa nachádza bazén s protiprúdom a vodnou stenou, sauna s ochladzovacím fínskym vedrom, vírivá vaňa a rôzne druhy masáží. Okrem toho sa tu nachádzajú 4 bowlingové dráhy, kvalitné biliardové stoly, golfový trenažér, elektronické šípky a ďalšie atrakcie ako napr. unikátna laserová strelnica, jukebox a karaoke.</p>
+            <p class="text-muted">{{almet-desc1}}</p>
+            <p class="text-muted">{{almet-desc2}}</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -135,8 +135,8 @@
               <i class="fa fa-photo fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Donovaly</h4>
-            <p class="text-muted">Donovaly sa stali vyhľadávaným dynamickým a moderným strediskom cestovného ruchu medzinárodného významu s celoročnými službami. V zime predstavujú lyžiarsky raj a v lete okrem rôznych letných športov, východiskové turistické centrum. Buďte u nás srdečne vítaní. Donovaly Vás prekvapia vždy niečím novým.</p>
-            <p class="text-muted">Skvelá horská panoráma, vynikajúce snehové podmienky, akcie plné adrenalínu, množstvo bielych atrakcií, to všetko je PARK SNOW DONOVALY. Čaká Vás tu 15 km upravovaných lyžiarskych tratí, moderné vleky a lanovky s kapacitou 14.100 os./hod., večerné lyžovanie.</p>
+            <p class="text-muted">{{donovaly-desc1}}</p>
+            <p class="text-muted">{{donovaly-desc2}}</p>
           </div>
         </div>
       </div>
@@ -146,8 +146,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Cenník</h2>
-            <h3 class="section-subheading text-muted">Pri viacdennom pobyte je možná zľava. Psie záprahy a Silvester sú osobitné ceny.</h3>
+            <h2 class="section-heading">{{prices}}</h2>
+            <h3 class="section-subheading text-muted">{{prices-subtitle}}</h3>
           </div>
           <div class="row text-center">
             <div class="col-lg-12">
@@ -156,23 +156,23 @@
                   <thead>
                     <tr>
                       <th></th>
-                      <th>Dĺžka pobytu</th>
-                      <th>Celý apartmán</th>
-                      <th>Prístelok</th>
+                      <th>{{duration}}</th>
+                      <th>{{whole-apartment}}</th>
+                      <th>{{extra-bed}}</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th class="text-nowrap" scope="row">15.12. - 31.3.</th>
-                      <td>1-7 nocí</td>
-                      <td>50 EUR / noc</td>
-                      <td>5 EUR / noc</td>
+                      <td>1-7 {{nights}}</td>
+                      <td>50 EUR / {{night}}</td>
+                      <td>5 EUR / {{night}}</td>
                     </tr>
                     <tr>
                       <th class="text-nowrap" scope="row">1.4.- 15.12.</th>
-                      <td>1-7 nocí</td>
-                      <td>23 EUR / noc</td>
-                      <td>3 EUR / noc</td>
+                      <td>1-7 {{nights}}</td>
+                      <td>23 EUR / {{night}}</td>
+                      <td>3 EUR / {{night}}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -188,8 +188,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Galéria</h2>
-            <h3 class="section-subheading text-muted">Apartmán, Donovaly a blízke okolie</h3>
+            <h2 class="section-heading">{{gallery}}</h2>
+            <h3 class="section-subheading text-muted">{{gallery-subtitle}}</h3>
           </div>
         </div>
         <div class="row">
@@ -203,8 +203,8 @@
               <img src="img/portfolio/kitchen.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Galéria</h4>
-              <p class="text-muted">Kuchynský kútik</p>
+              <h4>{{gallery}}</h4>
+              <p class="text-muted">{{kitchenette}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -217,8 +217,8 @@
               <img src="img/portfolio/sofa-tv.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Apartmán</h4>
-              <p class="text-muted">Sedačka a televízor</p>
+              <h4>{{apartment}}</h4>
+              <p class="text-muted">{{sofa-tv}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -231,8 +231,8 @@
               <img src="img/portfolio/bed.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Apartmán</h4>
-              <p class="text-muted">Posteľ</p>
+              <h4>{{apartment}}</h4>
+              <p class="text-muted">{{bed}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -245,8 +245,8 @@
               <img src="img/portfolio/bath.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Apartmán</h4>
-              <p class="text-muted">Kúpeľňa</p>
+              <h4>{{apartment}}</h4>
+              <p class="text-muted">{{bathroom}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -259,8 +259,8 @@
               <img src="img/portfolio/view-from-balcony.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Apartmán</h4>
-              <p class="text-muted">Pohľad z balkóna</p>
+              <h4>{{apartment}}</h4>
+              <p class="text-muted">{{view-balcony}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -274,7 +274,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Donovaly</h4>
-              <p class="text-muted">Prostredie</p>
+              <p class="text-muted">{{environment}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -288,7 +288,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Almet</h4>
-              <p class="text-muted">Pohľad zvonka</p>
+              <p class="text-muted">{{view-from-outside}}</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -302,7 +302,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>Donovaly</h4>
-              <p class="text-muted">Lyžiarske vleky</p>
+              <p class="text-muted">{{ski-lifts}}</p>
             </div>
           </div>
         </div>
@@ -314,8 +314,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Donovaly a okolie</h2>
-            <h3 class="section-subheading text-muted">Navštíveniahodné na Donovaloch a v regióne</h3>
+            <h2 class="section-heading">{{donovaly-and-surroundings}}</h2>
+            <h3 class="section-subheading text-muted">{{worth-a-visit-donovaly}}</h3>
           </div>
         </div>
         <div class="row">
@@ -328,11 +328,11 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>PARKSNOW Donovaly</h4>
-                  <h4 class="subheading">Pre milovníkov zimných športov</h4>
+                  <h4 class="subheading">{{for-lover-of-winter-sports}}</h4>
                 </div>
                 <div class="timeline-body">
                   <!-- http://www.slovakia.com/sk/skiparky/park-snow-donovaly/ -->
-                  <p class="text-muted">Všetko, čo potrebujete pre nezabudnuteľný lyžiarsky zážitok: viac ako 11 km zjazdoviek, 17 zjazdových tratí, umelé zasnežovanie, vynikajúci terén na free-ride, posiaty množstvom prekážok, kúzelné večerné lyžovanie, požičovňu lyží a snowboardov, lyžiarske školy pre začiatočníkov a samozrejme najväčší zábavný park pre deti v strednej Európe!</p>
+                  <p class="text-muted">{{parksnow-donovaly-desc}}</p>
                 </div>
               </div>
               </li>
@@ -342,11 +342,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Nízke Tatry</h4>
-                  <h4 class="subheading">Národný park</h4>
+                  <h4>{{low-tatras}}</h4>
+                  <h4 class="subheading">{{national-park}}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Národný park Nízke Tatry (NAPANT) je najrozľahlejší slovenský národný park, rozprestierajúci sa na strednom Slovensku. Jeho najväčšou atrakciou sú početné krasové javy s viacerými jaskyňami. Fyzicky zdatnejší turisti môžu vystúpiť na najvyššie nízkotatranské končiare Chopok a Ďumbier, ktoré ponúkajú atraktívne výhľady takmer na polovicu Slovenska a sú súčasťou najkrajšej slovenskej hrebeňovky.</p>
+                  <p class="text-muted">{{low-tatras-desc}}</p>
                 </div>
               </div>
               </li>
@@ -357,11 +357,11 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Bešeňová</h4>
-                  <h4 class="subheading">Termálne kúpele</h4>
+                  <h4 class="subheading">{{spas}}</h4>
                 </div>
                 <div class="timeline-body">
                   <!-- http://besenova.aquapark.sk/ -->
-                  <p class="text-muted">Thermal park Bešeňová obsahuje vonkajšie bazény s geotermálnou vodou a vodnými atrakciami, pri ktorých zažijete luxusný relax. Vnútorné bazény obsahujú číru vodu, ktorá je neustále ohrievaná. Oddych sa dá rovnako vychutnať vo Vitálnom svete - Wellness centre, kde sú k dispozícii sauny a inhalácie. Relax centrum zasa výborne poslúži na uvoľnenie tela pomocou masáži.</p>
+                  <p class="text-muted">{{spas-desc}}</p>
                 </div>
               </div>
               </li>
@@ -372,19 +372,19 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Banská Bystrica</h4>
-                  <h4 class="subheading">Národné dejiny a kultúra v srdci Slovenska</h4>
+                  <h4 class="subheading">{{bystrica-subtitle}}</h4>
                 </div>
                 <div class="timeline-body">
                   <!-- http://slovakia.travel/banska-bystrica -->
-                  <p class="text-muted">BANSKÁ BYSTRICA je šiestym najväčším mestom Slovenska a kultúrnym i hospodárskym centrom stredného Slovenska. Vzhľadom na jej centrálnu polohu je sídlom aj niektorých celoslovenských inštitúcií. V súčasnosti je takisto obľúbeným miestom stretávania sa ľudí zo širokého okolia.</p>
+                  <p class="text-muted">{{bystrica-desc}}</p>
                 </div>
               </div>
               </li>
               <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>a
-                  <br>mnoho
-                  <br>ďaľšieho
+                <h4>{{and}}
+                  <br>{{a-lot}}
+                  <br>{{more}}
                 </h4>
               </div>
               </li>
@@ -399,7 +399,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Kontaktujte nás</h2>
+            <h2 class="section-heading">{{contact-us}}</h2>
             <h3 class="section-subheading text-muted"><a href="mailto:kmitva@gmail.com">kmitva@gmail.com</a> / 00421 903 279 044</h3>
             <div class="col-lg-12 text-center">
               <div id="success"></div>

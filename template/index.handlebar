@@ -165,7 +165,7 @@
                     <tr>
                       <th class="text-nowrap" scope="row">15.12. - 31.3.</th>
                       <td>1-7 {{nights}}</td>
-                      <td>50 EUR / {{night}}</td>
+                      <td>60 EUR / {{night}}</td>
                       <td>5 EUR / {{night}}</td>
                     </tr>
                     <tr>
